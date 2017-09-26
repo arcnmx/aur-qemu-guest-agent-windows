@@ -1,7 +1,7 @@
 pkgname=qemu-guest-agent-windows
 pkgver=2.10.0
 pkgrel=1
-pkgdesc="qemu-ga"
+pkgdesc="QEMU Guest Agent Windows MSI build"
 pkgurl=http://wiki.qemu.org/
 license=(GPL2 LGPL2.1)
 depends=()
