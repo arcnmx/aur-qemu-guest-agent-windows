@@ -1,12 +1,12 @@
 pkgname=qemu-guest-agent-windows
-pkgver=2.10.0
+pkgver=2.11.0
 pkgrel=1
 pkgdesc="QEMU Guest Agent Windows MSI build"
 pkgurl=http://wiki.qemu.org/
 license=(GPL2 LGPL2.1)
 depends=()
 arch=(any)
-makedepends=(python2 mingw-w64-glib2 msitools)
+makedepends=(python2 mingw-w64-glib2 mingw-w64-pixman msitools)
 source=(
 	https://download.qemu.org/qemu-$pkgver.tar.xz
 	mingw-ga.patch
@@ -50,5 +50,5 @@ package() {
 }
 
 # makepkg -g >> PKGBUILD
-md5sums=('a89e3293cf69c32cf4be4188dfa25544'
+md5sums=('5c823d2e01934b46a080f9e4d0695805'
          '2e16b8e07ed9c82df1a568d311133def')
